@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300&display=swap');
+*{
+    font-family: 'Outfit';
+}
+.section-1, .section-2, .section-4, .section6-area2 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    font-family: 'Outfit';
+    color: #2F2F2F;
+
+}
+.section-1{
+    align-items: center;
+    font-size: 12px;
+    justify-content: space-around;
+}
+.button-1{
+    height: 40px;
+    background: #2F2F2F;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.content {
+    padding: 2% 0% 0px 0%;
+    width: 100%;
+}
+.inline-block {
+    display: inline-block;
+    margin-left: 45px;
+}
+.section-1 img {
+    width: 100%;
+}
+.section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8% 10% 0px 5%;
+}
+.section2-area1{
+    display: flex;
+    flex-direction: column;
+}
+.section2-area2{
+    display: flex;
+    /* padding: 50px; */
+    
+}
+.section-3{
+    /* display: flex; */
+    margin-top: 271px;
+}
+.section-3 img {
+    width: 100%;
+}
+.section-4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5% 0px 0px 0px;
+}
+.section4-area2{
+    padding: 1% 0px 0px 0px;
+    font-weight: bold;
+}
+.section-5{
+    padding: 5% 0px 0px 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+.section5-area1 button{
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 22px;
+    border: 1px solid #2F2F2F;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.section5-area2{
+    display: flex;
+    flex-direction: row;
+}
+.section5-span{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    padding-left: 4%;
+}
+.section5-area3{
+    display: flex;
+    padding-top: 10%;
+}
+.section5-img{
+    display: flex;
+}
+.section5-area4{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 5%;
+}
+.section5-but{
+    background: #2F2F2F;
+    border-radius: 0px;
+    color: #FFFFFF;
+    height: 44px;
+    text-align: center;
+    width: 150px;
+    
+}
+
+.section-6{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+    
+}
+.section6-icons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15%;
+}
+.section6-area1{
+    display: flex;
+    flex-direction: column;
+}
+.section6-area2{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.section6-colum{
+    display: flex;
+    flex-direction: column;
+}
+.section6-colum2{
+    display: flex;
+    flex-direction: column;
+}
+.section6-area3{
+    display: flex;
+
+}
+.section6-area3{
+    display: flex;
+    flex-direction: column;
+}
+.section6-input input{
+    background: #F6F6F6;
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    padding: 0 30px;
+    color: rgba(47, 47, 47, 0.36);
+    
+}
+.section6-input{
+    display: flex;
+    justify-content: baseline;
+    padding-top: 5%;
+}
+.section5-but2{
+    background: #2F2F2F;
+    border-radius: 20px;
+    color: #FFFFFF;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+.section-7{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
+    padding-bottom: 1.5%;
+}
+
+@media screen and (max-width: 1200px){
+    .content{
+        width: 1140px;
+    }
+    .section2-bigimg{
+        width: 70%;
+    }
+
+}
+@media screen and (max-width: 1199px){
+    .content{
+        width: 960px;
+    }
+
+    
+}
+@media screen and (max-width: 991px){
+    .content{
+        width: 720px;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .content{
+        width: 540px;
+    }
+    
+}
+/* @media (max-width: 767px){
+    .section-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-1 > div {
+        margin-bottom: 10px;
+    }
+    .section-1 div span:first-child {
+        margin-left: 0;
+    }
+    .section5-area {
+        width: 50%;
+    }
+} */
